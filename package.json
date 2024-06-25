@@ -1,0 +1,21 @@
+{
+  "name": "local-chat-app",
+  "version": "1.0.0",
+  "description": "A local chat application using Electron and SQLite",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "electron": "^16.0.4",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
